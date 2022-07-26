@@ -1,11 +1,45 @@
 html {
   box-sizing: border-box;
-  background-color: #c9b5ab;
   color: #222;
-  font-family: 'Crimson Text', serif;
-  line-height: 1.5;
+  font-family: "Crimson Text", serif;
+  line-height: 1.3;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  line-height: 0;
+}
+
+header p {
+  font-style: italic;
+  color: #555;
+}
+
+body {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 1.125rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  boarder-size: 2px;
+}
+
+header {
+  border-bottom: solid;
+  border-bottom-color: #999;
+  border-width: 2px;
+}
+
+article {
+  border-bottom: solid;
+  border-bottom-color: #999;
+  border-width: 2px;
+}
+
+blockquote {
+  color: #555;
+  font-size: 1.5rem;
 }
