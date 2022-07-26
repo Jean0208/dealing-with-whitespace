@@ -9,28 +9,37 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
-  line-height: 0;
+body {
+  font-size: 1.125rem;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0;
 }
 
-header p {
+article h1 {
+  line-height: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+article header p {
   font-style: italic;
   color: #555;
 }
 
-body {
-  margin-top: 40px;
-  margin-bottom: 30px;
-  font-size: 1.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  boarder-size: 2px;
-}
-
-header {
+article header {
   border-bottom: solid;
   border-bottom-color: #999;
   border-width: 2px;
+}
+
+article p {
+  color: #555;
+}
+
+article ol {
+  list-style-position: inside;
+  padding: 0;
 }
 
 article {
